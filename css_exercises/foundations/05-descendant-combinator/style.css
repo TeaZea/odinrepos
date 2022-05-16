@@ -1,0 +1,8 @@
+/* stylesheet for 05-descendant-combinator */
+
+.container .text {
+    background: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

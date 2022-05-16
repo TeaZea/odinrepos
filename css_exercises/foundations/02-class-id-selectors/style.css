@@ -1,0 +1,21 @@
+/* stylesheet for 02-class-id-selectors */
+
+.odd-ele {
+    background-color: lightpink;
+    font-family: 'Verdana', 'Dejavu Sans', sans-serif;
+}
+
+#div-2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.ele-3 {
+    font-size: 24px;
+}
+
+#div-4 {
+    background: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

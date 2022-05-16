@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica', 'Ariel', sans-serif;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+ /*header section + nav bar*/
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 60px;
+    padding: 20px 100px 20px 100px;
+}
+
+.logo {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border-style: double;
+    border-color: white;
+    border-radius: 8%;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+h1 + p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+div + img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.header-image {
+    border-style: solid;
+    border-radius: 8%;
+    border-color: #3882f6;
+}
+
+.about-me-button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/*picture/logo/info section (container 2)*/
+
+.container-2 {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.container-2-title {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ .pic-text-combo {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0 52px;
+ }
+
+.small-pics-container-2 {
+    height: 70px;
+    width: 110px;
+    border-style: solid;
+    border-radius: 8%;
+    border-color: #3882f6;
+    margin: 0 0 5px 0;
+}
+
+.text-style {
+    text-align: center;
+}
+
+/*quote section (container 3)*/
+
+.container-3 {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p + p {
+    text-align: center;
+    margin: 20px 0 30px 200px;
+    color: #1f2937;
+}
+
+/*Sign up section (container 4)*/
+
+.container-4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.linkedin-container {
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border: none;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-div {
+    margin: 12px 0 0 10px;
+}
+
+/*footer container*/
+
+.footer-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
