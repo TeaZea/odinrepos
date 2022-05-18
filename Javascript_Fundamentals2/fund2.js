@@ -27,15 +27,15 @@ console.log(dbl);
 //const badQuotes = 'What on Earth?!";
 
 
-//string concatination... not working for some reason..//
-//const name = "Chris";
-//const greeting = "Hello, ${name}";
-//console.log(greeting);
+//string concatination//
+const name = "Chris";
+const greeting = `Hello, ${name}`;
+console.log(greeting);
 
-//const one = "Hello,";
-//const two = "how are you?";
-//const joined = "${one}${two}";
-//console.log(joined)
+const one = "Hello,";
+const two = "how are you?";
+const joined = `${one}${two}`;
+console.log(joined)
 
 
 //in contexqt but doesn't work...//
@@ -50,15 +50,9 @@ console.log(dbl);
 //button.addEventListener('click', greet);
 
 
-//Concatenation using "+"
-
-const greeting = "Hello";
-const name = "Chris";
-console.log(greeting + ", " + name);
-
 
 //just gonna stop doing these exercises as they are just reusing constants and I don't want to keep on redoing .js and index files.
-//also ${} isn't concatinating.
+
 
 
 
